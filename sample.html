@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1 id="krushna">Object</h1>
+        <script>
+            const person = {
+                name:"krushna",
+                age:23,
+                greet:function(){ 
+                    console.log("hello")
+                }
+            }
+            console.log(person);
+            console.log(person.name);
+            console.log(person.age);
+            person.greet()   
+            
+            function namaste(){
+                alert("aag laga di (Anumalik)");
+            }
+            namaste();
+            const heading = document.getElementById("krushna");
+            console.log(heading.id);
+            console.dir(heading);
+            heading.id="helloji";
+            console.log(document);
+        </script>
+    </body>
+</html>
