@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>hello this is the heading 1 </h1>
+        <script>
+                class Person {
+                    var fName,lName;
+                    constructor(firstName,lastName){
+                        this.name = firstName + " " + lastName;
+                        fName = firstName;
+                        lName = lastName;
+                    }
+                    getname(){
+                        console.log(this.name);
+                    }
+                    getFirstName(){
+                        console.log(fName);
+                    }
+
+                }
+                let p1 = new Person("krushna","kale");
+                p1.getname();
+                console.log("dirctyly printing name " + p1.name);
+                p1.getFirstName();
+                let p2 = new Person("Siddhant","Chothe");
+                p2.getname();
+                Person.getname();   
+        </script>
+    </body>
+</htm>
